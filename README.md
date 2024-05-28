@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Trekking Tour Guide Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+We are an emerging startup specializing in outdoor experiences. For our latest initiative, we want to create a website for a trekking tour guide from Lombok, Indonesia, who offers trekking tours on Mount Rinjani. To evaluate our candidate's skills, we would like her to develop the frontend of this website. The website should be informative and appealing, presenting the various tour options and information about the guide to potential customers.
 
-In the project directory, you can run:
+## Setting
 
-### `npm start`
+The trekking tour guide from Lombok, Indonesia, offers adventurous tours on Mount Rinjani. The tours offered include:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A 2-day/1-night tour
+- A 3-day/2-night tour
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The website should inform potential customers about these tours, inspire them, and provide all the necessary information to consider booking a tour.
 
-### `npm test`
+## Sections to Design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The candidate should design the following 3 sections for the website:
 
-### `npm run build`
+1. **Hero Section**:
+   - An engaging image or video of Mount Rinjani.
+   - A short welcome message and a call to action, e.g., "Explore Mount Rinjani."
+   - Call to action button: Jump to offers.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Tour Offers**:
+   - An overview of the tours offered (2-day/1-night tour and 3-day/2-night tour).
+   - For each tour: title, short description, tour highlights, duration, and price.
+   - A "Learn more" or "Book now" button for each tour.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **About the Guide** (optional):
+   - A brief introduction of the guide with a photo.
+   - Background information, experience, and special qualifications.
+   - Personal quotes or customer testimonials.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technical Requirements
+- **Frameworks**: React.js, Tailwind CSS
+- **Data Fetching**: Data should be fetched via JSON files from a backend. The backend does not need to be created; it is only expected that the data will be integrated via API calls.
+- **Data Source**: The data should be fetched directly from [this JSON file](https://raw.githubusercontent.com/tkrpn/rinjani-content/main/data.json).
+- **Image Integration**: Photos are stored in a backend and can be easily integrated via public URLs.
+- **Responsive Design**: The website must look good and be usable on various devices (desktop, tablet, smartphone).
+- **Clean and Well-Commented Code**: The code should be well-structured and understandable to facilitate easy maintenance and further development.
+- **Shared in Private Repository**: The code should be committed and pushed to a private repository on GitHub/GitLab.
+- **Use fitting Images**: Use images found on the internet that are fitting for the specific purpose.
 
-### `npm run eject`
+## Data Source
+Data should be fetched from [this JSON file](https://raw.githubusercontent.com/tkrpn/rinjani-content/main/data.json).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+This README.md provides an overview of the project requirements and technical specifications for the frontend development of the Trekking Tour Guide Website.
