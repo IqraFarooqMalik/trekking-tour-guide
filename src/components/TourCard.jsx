@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const TourCard = ({ tour }) => {
   const navigate = useNavigate();
 
+  //for redirection to tour info url
   function handleClick() {
     navigate(tour.moreInfoUrl); 
   }

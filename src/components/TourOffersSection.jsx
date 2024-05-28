@@ -4,6 +4,8 @@ import imageUrls from '../data/images.json'
 
 const TourOffersSection = ({tours}) => {
  
+  //Added public Image urls for tours in a json file and appending the tour object to add image url 
+  //field in it which can be used in image card
   tours.forEach((tour, index) => {
     const imageUrlKey = "tour" + (index + 1);
     if (imageUrls[imageUrlKey]) {
