@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const HeroSection = ({ heroSection }) => {
   const navigate = useNavigate();
 
+  //for redirection to booking url
   const handleBooking = () => {
     navigate(heroSection.bookingButton.url); 
   };
