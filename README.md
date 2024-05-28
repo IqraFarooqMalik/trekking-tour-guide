@@ -1,5 +1,13 @@
 # Trekking Tour Guide Website
 
+## How to Run Project
+1. Clone repository
+2. Create a .env File
+3. Add new variable  named "REACT_APP_BACKEND_URL"  and assign it the value "https://raw.githubusercontent.com/tkrpn/rinjani-content/main/data.json". Please do not use qoutations in the .env file.
+4. run "npm i" in terminal
+5. run "npm start" in terminal
+
+
 ## Project Overview
 
 We are an emerging startup specializing in outdoor experiences. For our latest initiative, we want to create a website for a trekking tour guide from Lombok, Indonesia, who offers trekking tours on Mount Rinjani. To evaluate our candidate's skills, we would like her to develop the frontend of this website. The website should be informative and appealing, presenting the various tour options and information about the guide to potential customers.
